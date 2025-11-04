@@ -1,0 +1,51 @@
+.container{
+    min-height: 100vh;
+    background: #04022e;
+background: linear-gradient(90deg,rgba(4, 2, 46, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
+display: flex;
+justify-content: center;
+align-items: center;
+ 
+
+}
+.content{
+   
+    display: flex;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    padding: 5px;
+    gap: 10px;
+    min-height: 200px;
+    width: 300px;
+    align-items: center;
+   
+
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 15px;
+    border: none;
+    gap: 50px;
+    height: 180px;
+    width: 80px;
+    border-radius: 5px;
+  
+}
+#szamlalo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: gray;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    gap: 5px;
+    align-items: center;
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+}
+button:disabled{
+    background-color: rgb(83, 152, 255);
+}
